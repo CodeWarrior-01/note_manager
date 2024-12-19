@@ -1,9 +1,5 @@
-username = input("Напишите имя пользователя: ")
-title = input("Напишите заголовок заметки: ")
-content = input("Напишите описание заметки: ")
-status = input("Напишите статус заметки: ")
-created_date = input("Задайте дату создания формате день.месяц.год (примеру 01.01.01) ")
-issue_date = input("Задайте дату истечение формате день.месяц.год  (примеру 01.01.01) ")
+from add_input import username, title, content, status, created_date, issue_date
+
 # вывод значений
 print("Имя пользователя:", username)
 print("Заголовок заметки:", title)
