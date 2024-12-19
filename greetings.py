@@ -1,0 +1,13 @@
+username = input()
+title = input()
+content = input()
+status = input()
+created_date = input()
+issue_date = input()
+# вывод значений
+print("Имя пользователя:", username)
+print("Заголовок заметки:", title)
+print("Описание заметки:", content)
+print("Статус заметки:", status)
+print("Дата создания:", created_date)
+print("Дата истечение:", issue_date)
